@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+	
+    <script type="text/javascript">
+		angular.module("tabs", ["ionic"]);
+	</script>
+ 
+  </head>
+  
+  <body ng-app="tabs">
+	
+	<!--Putting in an ionic header and making it blue-->
+	<ion-header-bar class="bar-positive">
+		<h1 class="title">Eat Right</h1>
+    </ion-header-bar>
+	
+	<!--Making the ion tabs blue-->
+	<ion-tabs class="tabs-positive">
+
+	<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+		
+		
+		
+		<ion-tab title="Calorie Table">
+			<ion-view>
+				
+		<CENTER>
+		
+		<div>
+		<table class="calories">	
+			
+			<table id="table" style="width:40%">
+				<tr>
+				<td class="calories"style="background-color: #808080" ><font size="5" color="blue"><b>Food</font></td></b>
+				<td class="calories" style="background-color: #808080"><font size="5" color="blue"><b>Size</td></font></b>
+				<td class="calories" style="background-color: #808080"><font size="5" color="blue"><b>Calories</td></font></b>
+				</tr>
+				
+				<tr><td style="background-color: #D0D0D0">Apple</td><td class="calories" style="background-color: #D0D0D0">1 small (4 oz.)</td><td class="calories" style="background-color: #D0D0D0">80</td></tr>
+				<tr><td style="background-color: #D0D0D0">Banana</td><td class="calories" style="background-color: #D0D0D0">1 medium (6 oz.)</td><td class="calories"style="background-color: #D0D0D0">101</td></tr>
+				<tr><td style="background-color: #D0D0D0">Grape</td><td class="calories"style="background-color: #D0D0D0">each</td><td class="calories"style="background-color: #D0D0D0">2</td></tr>
+				<tr><td style="background-color: #D0D0D0">Orange</td><td class="calories"style="background-color: #D0D0D0">1 (4 oz.)</td><td class="calories"style="background-color: #D0D0D0">71</td></tr>
+				<tr><td style="background-color: #D0D0D0">Watermelon</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">45</td></tr>
+
+				<tr><td>&nbsp;</td><td class="calories">&nbsp;</td><td class="calories">&nbsp;</td></tr>
+				<tr><td style="background-color: #D0D0D0">Broccoli</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">40</td></tr>
+				<tr><td style="background-color: #D0D0D0">Carrots</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">45</td></tr>
+				<tr><td style="background-color: #D0D0D0">Tomato</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">29</td></tr>
+
+				<tr><td>&nbsp;</td><td class="calories">&nbsp;</td><td class="calories">&nbsp;</td></tr>
+				<tr><td style="background-color: #D0D0D0">Beef, regular, cooked</td><td class="calories"style="background-color: #D0D0D0">1 slice (2 oz.)</td><td class="calories"style="background-color: #D0D0D0">120</td></tr>
+				<tr><td style="background-color: #D0D0D0">Chicken, cooked</td><td class="calories"style="background-color: #D0D0D0">1 slice (2 oz.)</td><td class="calories"style="background-color: #D0D0D0">95</td></tr>
+				<tr><td style="background-color: #D0D0D0">Egg</td><td class="calories"style="background-color: #D0D0D0">large</td><td class="calories"style="background-color: #D0D0D0">79</td></tr>
+				<tr><td style="background-color: #D0D0D0">Fish, Catfish, cooked</td><td class="calories"style="background-color: #D0D0D0">2 oz.</td><td class="calories"style="background-color: #D0D0D0">80</td></tr>
+				<tr><td style="background-color: #D0D0D0">Pork, cooked</td><td class="calories"style="background-color: #D0D0D0">1 slice (2 oz.)</td><td class="calories"style="background-color: #D0D0D0">130</td></tr>
+
+				<tr><td>&nbsp;</td><td class="calories">&nbsp;</td><td class="calories">&nbsp;</td></tr>
+				<tr><td style="background-color: #D0D0D0">Bread, regular</td><td class="calories"style="background-color: #D0D0D0">1 slice (1 oz.)</td><td class="calories"style="background-color: #D0D0D0">75</td></tr>
+				<tr><td style="background-color: #D0D0D0">Butter</td><td class="calories"style="background-color: #D0D0D0">1 table spoon</td><td class="calories"style="background-color: #D0D0D0">102</td></tr>
+				<tr><td style="background-color: #D0D0D0">Caesar salad</td><td class="calories"style="background-color: #D0D0D0">1 serving (3 cups)</td><td class="calories"style="background-color: #D0D0D0">360</td></tr>
+				<tr><td style="background-color: #D0D0D0">Cheeseburger</td><td class="calories"style="background-color: #D0D0D0">1 (McDonald Medium)</td><td class="calories"style="background-color: #D0D0D0">360</td></tr>
+				<tr><td style="background-color: #D0D0D0">Chocolate</td><td class="calories"style="background-color: #D0D0D0">1 oz.</td><td class="calories"style="background-color: #D0D0D0">150</td></tr>
+				<tr><td style="background-color: #D0D0D0">Hamburger</td><td class="calories"style="background-color: #D0D0D0">1 (McDonald Medium)</td><td class="calories"style="background-color: #D0D0D0">280</td></tr>
+				
+				<tr><td>&nbsp;</td><td class="calories">&nbsp;</td><td class="calories">&nbsp;</td></tr>
+				<tr><td style="background-color: #D0D0D0">Beer, regular</td><td class="calories"style="background-color: #D0D0D0">1 can or bottle</td><td class="calories"style="background-color: #D0D0D0">150</td></tr>
+				<tr><td style="background-color: #D0D0D0">Coca-Cola Classic</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">97</td></tr>
+				<tr><td style="background-color: #D0D0D0">Diet Coke</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">3</td></tr>
+				<tr><td style="background-color: #D0D0D0">Milk, low-fat (1%)</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">104</td></tr>
+				<tr><td style="background-color: #D0D0D0">Milk, whole</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">150</td></tr>
+				<tr><td style="background-color: #D0D0D0">Orange Juice / Apple Juice</td><td class="calories"style="background-color: #D0D0D0">1 cup</td><td class="calories"style="background-color: #D0D0D0">115</td></tr>
+			</table>
+		</table>
+	</div>
+		
+	<script src="script.js"></script>
+	
+			<br><p>You can use this calculator to calculate your calorie intake</p>
+	
+	    <form name="calculator" >
+		Calorie intake:<input type="textfield" name="ans" value="">kcal
+		<br>
+		<input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+		<input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+		<input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+		<input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+		<br>
+		<input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+		<input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+		<input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+		<input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+		<br>
+		<input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+		<input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+		<input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+		<input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+		<br>
+		<input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+		<input type="reset" value="Reset">
+		<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+		</form>
+		
+		
+
+		<!--<button onclick="myFunction()">Show dialog</button>
+
+		<dialog id="myDialog">Total Calorie Intake:</dialog>
+
+		<script>
+		function myFunction() { 
+			document.getElementById("myDialog").showModal(); 
+		} 
+		</script>-->
+		
+	<CENTER>
+				
+			</ion-view>
+		</ion-tab>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+	
+		  <ion-tab title="Calorie Intake">
+			<ion-view>
+				
+		<!--Recommended calories table-->
+		<CENTER>
+		<table class="calories2">	
+			<br><br><br>
+			
+			<table id="table1" border="5" style="width:30%">
+				<tr>
+				<td class="calories"style="background-color: #808080" ><font size="5" color="blue"><b>Gender</font></td></b>
+				<td class="calories" style="background-color: #808080"><font size="5" color="blue"><b>Age</td></font></b>
+				<td class="calories" style="background-color: #808080"><font size="5" color="blue"><b>Calories needed</td></font></b>
+				</tr>
+				
+				<tr><td style="background-color: #D0D0D0">Child</td><td class="calories" style="background-color: #D0D0D0">2-3 yrs</td><td class="calories" style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Child</td><td class="calories" style="background-color: #D0D0D0">4-8 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1300 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Girl</td><td class="calories"style="background-color: #D0D0D0">9-13 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1600 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Boy</td><td class="calories"style="background-color: #D0D0D0">9-13 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1800 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Girl</td><td class="calories"style="background-color: #D0D0D0">14-18 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1800 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Boy</td><td class="calories"style="background-color: #D0D0D0">14-18 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2200 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Female</td><td class="calories"style="background-color: #D0D0D0">19-30 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2000 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Male</td><td class="calories"style="background-color: #D0D0D0">19-30 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2400 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Female</td><td class="calories"style="background-color: #D0D0D0">31-50 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1800 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Male</td><td class="calories"style="background-color: #D0D0D0">31-50 yrs</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2200 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Female</td><td class="calories"style="background-color: #D0D0D0">51+</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1600 cals</td></tr>
+				<tr><td style="background-color: #D0D0D0">Male</td><td class="calories"style="background-color: #D0D0D0">51+</td><td class="calories"style="background-color: #D0D0D0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2000 cals</td></tr>
+			</table>
+		</table>
+	
+	</div>
+	
+		
+		<div id="menu">
+		<img align="center" src="eatright.png" width="400px" height="400px">
+	    <footer id="foot01"></footer>
+		</div>
+
+		<CENTER>
+			</ion-view>
+		  </ion-tab>
+		</ion-tabs>
+
+	
+  </body>
+</html>

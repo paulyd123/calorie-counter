@@ -1,0 +1,90 @@
+﻿  /*Here I have a speech bubble for my home page just saying a few words about calories and the project*/
+  .speech-bubble {
+      background-color: #f4911c;
+      border: 3px solid #662f8c;
+      border-radius: 5px;
+      width: 500px;
+	  height: 200px;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+  }
+
+
+/*Menu with navigation*/
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+	background-color: #D0D0D0;
+}
+
+/*Menu with navigation*/
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+/*Menu with navigation*/
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+}
+
+/*Menu with navigation*/
+/*I used a background colour of black with red writing when you hover over the menu*/
+ul#menu li a:hover {
+    color: red;
+    background-color: black;
+}
+
+/*This is for my image on the calroie table page*/
+#eatright{ 
+	position: absolute;
+	width: cover;
+	top: 5px;
+	z-index: -1;
+	display: block;
+	width:100%; 
+    height:100%; 
+    background:url(eatright.png) center center no-repeat;
+	
+}
+/*This is to make the table transparent so you can see the image behind it*/
+#table{
+   opacity: 0.8;
+   background: transparent;
+   border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+
+/*This is for my image on my recommended calories page*/
+#eatright1{ 
+	position: absolute;
+	width: cover;
+	top: 5px;
+	left: 0px;
+	z-index: -1;
+	display: block;
+	width:100%; 
+    height:100%; 
+    background:url(eatright.png) center center no-repeat;
+}
+/*This is to make the table transparent so you can see the image behind it*/
+#table1{
+   opacity: 0.8;
+   background: transparent;
+}
+
+/*This is just designing the table*/
+table1, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
